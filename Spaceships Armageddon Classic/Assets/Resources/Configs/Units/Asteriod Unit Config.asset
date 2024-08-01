@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9855328094264f9687d3e938c110c803, type: 3}
+  m_Name: Asteriod Unit Config
+  m_EditorClassIdentifier: 
+  Name: Asteroid
+  TypeId: 1
+  dimensionType: 0
+  WeaponSlots:
+  - dimensionType: 0
+    WeaponConfig: {fileID: 0}
+  hull: 50
+  armor: 2
+  shield: 0
+  EvadeChance: 0
+  RotationSpeed: 5
+  Speed: 18
+  Acceleration: 1
+  Drops:
+  - Drop:
+    - LootTypeId: 2
+      Chance: 33
+    - LootTypeId: 1
+      Chance: 33
+    - LootTypeId: 0
+      Chance: 33
+  Prefab: {fileID: 5773313210240609625, guid: 99d2c6b1bd3374f4d981de318e3e1f4b, type: 3}

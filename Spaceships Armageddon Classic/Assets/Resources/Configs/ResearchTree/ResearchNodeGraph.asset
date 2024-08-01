@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5405277590665200401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: 56}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -5405277590665200401}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: 2113092333673467560}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -5405277590665200401}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 4099201167953627625}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 202
+  _level: 3
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &-5056799229514967952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -904, y: 56}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -5056799229514967952}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -5056799229514967952}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -4512015601610110843}
+        reroutePoints: []
+      - fieldName: Previous
+        node: {fileID: 2113092333673467560}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 1
+  _moduleTypeId: 202
+  _level: 1
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &-4512015601610110843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -584, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -4512015601610110843}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -5056799229514967952}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -4512015601610110843}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 458497399219159899}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 1
+  _moduleTypeId: 101
+  _level: 1
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &-4005135789818558658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 184, y: 56}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -4005135789818558658}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: 4099201167953627625}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -4005135789818558658}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 202
+  _level: 5
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &-3743095972844408371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -72, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -3743095972844408371}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: 458497399219159899}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -3743095972844408371}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -1245024398352226455}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 101
+  _level: 3
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &-1245024398352226455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 184, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: -1245024398352226455}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -3743095972844408371}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: -1245024398352226455}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 4129807411637029420}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 101
+  _level: 4
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c189c726ce2428cbd5839df14975c73, type: 3}
+  m_Name: ResearchNodeGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4512015601610110843}
+  - {fileID: 458497399219159899}
+  - {fileID: -3743095972844408371}
+  - {fileID: -1245024398352226455}
+  - {fileID: 4129807411637029420}
+  - {fileID: -5056799229514967952}
+  - {fileID: 2113092333673467560}
+  - {fileID: -5405277590665200401}
+  - {fileID: 4099201167953627625}
+  - {fileID: -4005135789818558658}
+--- !u!114 &458497399219159899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -328, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: 458497399219159899}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -4512015601610110843}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: 458497399219159899}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -3743095972844408371}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 101
+  _level: 2
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &2113092333673467560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -584, y: 56}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: 2113092333673467560}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -5056799229514967952}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: 2113092333673467560}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -5405277590665200401}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 202
+  _level: 2
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &4099201167953627625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -72, y: 56}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: 4099201167953627625}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -5405277590665200401}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: 4099201167953627625}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -4005135789818558658}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 202
+  _level: 4
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}
+--- !u!114 &4129807411637029420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f96018d46b98145ade1aa7c3885077, type: 3}
+  m_Name: Module Research
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 440, y: -136}
+  ports:
+    keys:
+    - Previous
+    - Dependents
+    values:
+    - _fieldName: Previous
+      _node: {fileID: 4129807411637029420}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Dependents
+        node: {fileID: -1245024398352226455}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Dependents
+      _node: {fileID: 4129807411637029420}
+      _typeQualifiedName: CodeBase.StaticData.ResearchTree.BaseNode, CodeBase, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  _available: 0
+  _moduleTypeId: 101
+  _level: 5
+  Previous: {fileID: 0}
+  Dependents: {fileID: 0}

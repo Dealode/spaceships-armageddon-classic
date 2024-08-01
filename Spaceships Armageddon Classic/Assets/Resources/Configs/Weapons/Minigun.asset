@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db501122b6d66d04185d105797e76f8e, type: 3}
+  m_Name: Minigun
+  m_EditorClassIdentifier: 
+  WeaponTypeId: 106
+  Name: Minigun
+  dimensionType: 0
+  Rarity: 1
+  ShootStrategy: 2
+  Damage: 10
+  Range: 100
+  Cooldown: 0.1
+  Accuracy: 1
+  ProjectileSpeed: 150
+  ShieldMultiplier: 0
+  HealthMultiplier: 0
+  IgnoreShield: 0
+  _Projectile: {fileID: 349078790510562072, guid: 139d8fed8d5ec4143bb734b0c67faae8,
+    type: 3}
